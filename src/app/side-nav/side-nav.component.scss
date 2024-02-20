@@ -1,0 +1,28 @@
+.nav-items {
+  padding-top: 40px;
+  .nav-item {
+    color: black;
+    padding: 25px 50px;
+    font-size: larger;
+    font-weight: 500;
+    cursor: pointer;
+    @media only screen and (max-width: 1300px) {
+      padding: 25px 40px;
+    }
+    &:hover {
+      background-color: rgb(255, 229, 255);
+      transform: scale(1.05);
+      transition: transform 0.2s ease-in-out;
+    }
+    fa-icon {
+      margin-right: 20px;
+      font-size: 22px;
+    }
+    span {
+      display: inline;
+      @media only screen and (max-width: 1300px) {
+        display: none;
+      }
+    }
+  }
+}
