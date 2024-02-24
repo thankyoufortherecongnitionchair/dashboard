@@ -32,17 +32,17 @@ export class TopThreeCommentsComponent {
         showInLegend: false,
         data: [
           {
-            name: 'Lenova Thinkpad E15',
+            name: '',
             y: 395,
             color: '#044342',
           },
           {
-            name: 'Nectar Orange Juice',
+            name: '',
             y: 385,
             color: '#7e0505',
           },
           {
-            name: 'Axe Deodarant',
+            name: '',
             y: 275,
             color: '#ed9e20',
           },
